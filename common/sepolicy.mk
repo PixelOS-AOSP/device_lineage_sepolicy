@@ -29,6 +29,11 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     hardware/google/pixel-sepolicy/turbo_adapter
 endif
 
+ifneq ($(BOARD_USES_QCOM_HARDWARE),true)
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
+    device/lineage/sepolicy/common/msft/private
+endif
+
 # Selectively include legacy rules defined by the products
 -include device/lineage/sepolicy/legacy-common/sepolicy.mk
 

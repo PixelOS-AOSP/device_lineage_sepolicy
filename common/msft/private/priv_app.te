@@ -1,0 +1,1 @@
+allow priv_app virtual_keyboard_service:service_manager find;
