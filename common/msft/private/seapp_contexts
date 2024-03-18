@@ -1,0 +1,2 @@
+# Add new domain for device integration service app
+user=_app isPrivApp=true name=com.microsoft.deviceintegrationservice domain=device_integration type=privapp_data_file levelFrom=user
