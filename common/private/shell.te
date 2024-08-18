@@ -1,1 +1,4 @@
 get_prop(shell, custom_version_prop)
+
+# Allow shell to disable PIHooks
+set_prop(shell, pih_disable_prop)
