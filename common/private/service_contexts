@@ -6,3 +6,6 @@ lineagetrust                              u:object_r:lineage_trust_service:s0
 profile                                   u:object_r:lineage_profile_service:s0
 
 adbroot_service                           u:object_r:adbroot_service:s0
+
+# PIH
+pih_manager                                 u:object_r:pih_manager_service:s0
