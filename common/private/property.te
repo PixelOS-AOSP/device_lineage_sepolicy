@@ -1,3 +1,7 @@
+# ATV
+# used by mediashell
+product_internal_prop(odm_cast_prop)
+
 # Custom version
 system_internal_prop(custom_version_prop)
 
